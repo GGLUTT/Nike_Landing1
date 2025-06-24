@@ -1,4 +1,39 @@
-# Getting Started with Create React App
+# Nike Landing Page 🏃‍♂️
+
+A modern, minimalist Nike landing page built with React featuring smooth animations, responsive design, and an elegant user interface.
+
+## 🌟 Features
+
+- **Modern Design**: Clean, minimalist interface with Nike branding
+- **Responsive Layout**: Optimized for all devices (desktop, tablet, mobile)
+- **Smooth Animations**: CSS animations and transitions for enhanced UX
+- **Interactive Components**: 
+  - Animated carousel hero section
+  - Product showcase with filtering
+  - Newsletter subscription
+  - Social media integration
+- **Performance Optimized**: Fast loading and smooth scrolling
+
+## 🚀 Live Demo
+
+[View Live Demo](https://GGLUTT.github.io/Nike_Landing1)
+
+## 📱 Screenshots
+
+### Desktop View
+![Desktop Screenshot](./src/img/desktop-preview.png)
+
+### Mobile View
+![Mobile Screenshot](./src/img/mobile-preview.png)
+
+## 🛠️ Technologies Used
+
+- **React** - Frontend framework
+- **CSS3** - Styling and animations
+- **JavaScript ES6+** - Modern JavaScript features
+- **GitHub Pages** - Deployment platform
+
+## 🏗️ Project Structure
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
