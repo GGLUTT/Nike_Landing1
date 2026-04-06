@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Nike_Landing1/static/css/main.9993bb1d.css",
+    "main.css": "/Nike_Landing1/static/css/main.0476ce28.css",
     "main.js": "/Nike_Landing1/static/js/main.ebdc6b05.js",
     "static/js/453.31c5d133.chunk.js": "/Nike_Landing1/static/js/453.31c5d133.chunk.js",
     "static/media/hero-video.mp4": "/Nike_Landing1/static/media/hero-video.7429b1865cc1f9b4f15c.mp4",
@@ -11,12 +11,12 @@
     "static/media/jordan1.png": "/Nike_Landing1/static/media/jordan1.d3b951669ad1bdeb0155.png",
     "static/media/logo.svg": "/Nike_Landing1/static/media/logo.fc6d09cebf514f4708f1dc672f3baf82.svg",
     "index.html": "/Nike_Landing1/index.html",
-    "main.9993bb1d.css.map": "/Nike_Landing1/static/css/main.9993bb1d.css.map",
+    "main.0476ce28.css.map": "/Nike_Landing1/static/css/main.0476ce28.css.map",
     "main.ebdc6b05.js.map": "/Nike_Landing1/static/js/main.ebdc6b05.js.map",
     "453.31c5d133.chunk.js.map": "/Nike_Landing1/static/js/453.31c5d133.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9993bb1d.css",
+    "static/css/main.0476ce28.css",
     "static/js/main.ebdc6b05.js"
   ]
 }
