@@ -7,11 +7,21 @@
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.8s ease;
+  transition: opacity 1s ease;
 }
 
 .video-hero.loaded {
   opacity: 1;
+  animation: heroReveal 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes heroReveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Video Background */
@@ -22,6 +32,20 @@
   width: 100%;
   height: 100%;
   z-index: 1;
+  transform: scale(1.2);
+  opacity: 0;
+  animation: videoZoomIn 2s cubic-bezier(0.4, 0, 0.2, 1) 0.3s forwards;
+}
+
+@keyframes videoZoomIn {
+  0% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .hero-video {
@@ -43,6 +67,14 @@
     rgba(10, 10, 26, 0.5) 50%,
     rgba(10, 10, 26, 0.7) 100%
   );
+  animation: overlayFade 1.5s ease 0.5s forwards;
+  opacity: 0;
+}
+
+@keyframes overlayFade {
+  to {
+    opacity: 1;
+  }
 }
 
 /* Hero Content */
@@ -57,19 +89,16 @@
 
 .content-wrapper {
   max-width: 800px;
-  animation: fadeInUp 1s ease 0.3s forwards;
   opacity: 0;
+  transform: translateY(50px);
+  animation: contentSlideUp 1s cubic-bezier(0.4, 0, 0.2, 1) 0.8s forwards;
 }
 
-@keyframes fadeInUp {
+@keyframes contentSlideUp {
   to {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.content-wrapper {
-  transform: translateY(30px);
 }
 
 /* Badge */
@@ -88,6 +117,20 @@
   text-transform: uppercase;
   margin-bottom: 2rem;
   backdrop-filter: blur(10px);
+  opacity: 0;
+  transform: scale(0.8);
+  animation: badgePop 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s forwards;
+}
+
+@keyframes badgePop {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .hero-badge svg {
@@ -112,10 +155,28 @@
   margin-bottom: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
+  overflow: hidden;
 }
 
 .title-line {
   display: block;
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.title-line:nth-child(1) {
+  animation: titleSlideUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 1.2s forwards;
+}
+
+.title-line:nth-child(2) {
+  animation: titleSlideUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 1.4s forwards;
+}
+
+@keyframes titleSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .title-line.highlight {
@@ -132,6 +193,16 @@
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 2.5rem;
   max-width: 600px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease 1.6s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Actions */
@@ -139,6 +210,9 @@
   display: flex;
   gap: 1.5rem;
   margin-bottom: 3rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease 1.8s forwards;
 }
 
 .hero-btn {
@@ -187,6 +261,9 @@
   gap: 2rem;
   padding: 2rem 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease 2s forwards;
 }
 
 .stat-item {
@@ -226,8 +303,8 @@
   align-items: center;
   gap: 1rem;
   z-index: 10;
-  animation: fadeIn 1s ease 1.5s forwards;
   opacity: 0;
+  animation: fadeIn 1s ease 2.5s forwards;
 }
 
 @keyframes fadeIn {
