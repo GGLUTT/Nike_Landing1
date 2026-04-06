@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/Nike_Landing1/static/css/main.5121b23e.css",
-    "main.js": "/Nike_Landing1/static/js/main.e0638301.js",
+    "main.css": "/Nike_Landing1/static/css/main.9993bb1d.css",
+    "main.js": "/Nike_Landing1/static/js/main.ebdc6b05.js",
     "static/js/453.31c5d133.chunk.js": "/Nike_Landing1/static/js/453.31c5d133.chunk.js",
+    "static/media/hero-video.mp4": "/Nike_Landing1/static/media/hero-video.7429b1865cc1f9b4f15c.mp4",
     "static/media/jordan4_new.png": "/Nike_Landing1/static/media/jordan4_new.328837526e2373e60ab4.png",
     "static/media/shox.png": "/Nike_Landing1/static/media/shox.fc8ff28e0bd13476106d.png",
     "static/media/dn.png": "/Nike_Landing1/static/media/dn.045da3ff38bbafaffb58.png",
     "static/media/jordan4.png": "/Nike_Landing1/static/media/jordan4.4fff96147f11d91a728e.png",
     "static/media/jordan1.png": "/Nike_Landing1/static/media/jordan1.d3b951669ad1bdeb0155.png",
+    "static/media/logo.svg": "/Nike_Landing1/static/media/logo.fc6d09cebf514f4708f1dc672f3baf82.svg",
     "index.html": "/Nike_Landing1/index.html",
-    "main.5121b23e.css.map": "/Nike_Landing1/static/css/main.5121b23e.css.map",
-    "main.e0638301.js.map": "/Nike_Landing1/static/js/main.e0638301.js.map",
+    "main.9993bb1d.css.map": "/Nike_Landing1/static/css/main.9993bb1d.css.map",
+    "main.ebdc6b05.js.map": "/Nike_Landing1/static/js/main.ebdc6b05.js.map",
     "453.31c5d133.chunk.js.map": "/Nike_Landing1/static/js/453.31c5d133.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5121b23e.css",
-    "static/js/main.e0638301.js"
+    "static/css/main.9993bb1d.css",
+    "static/js/main.ebdc6b05.js"
   ]
 }
